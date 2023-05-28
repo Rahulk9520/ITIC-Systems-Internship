@@ -1,0 +1,25 @@
+---------Transformer Architecture---------
+
+The vanilla Transformer model has an Encoder and Decoder, and was used in a seq2seq manner.
+
+----Next Slide----
+
+In most of the NLP tasks, language model pre-training has been used to improve the overall performance of the model:
+
+It is mostlu used in ELMo, OpenAI GPT and ULMFit.
+
+There are two methods for utilizing pre-trained language representations for downstream task: which are Feature-based and Fine-tuning.
+Where Fearure-based approach utilizes task-specific architectures with the pre-trained representations added as extra features and Fine-tuning approach employs task-specific architectures with the pre-trained representations added as extra features.
+
+--------Limitations of current techniques for NLP----------
+
+The major limitation is that Standard language models are unidirectional:
+For Example OpenAI GPT uses a left-to-right architecture. Such restrictions are sub-optimal for sentence-level tasks, and could be very harmful when applying finetuning based approaches to token-level tasks such as question answering, where it is crucial to incorporate context from both directions.
+ELMo: while ELMo concatenates the forward and backward language models. They extract context-sensitive features from a left-to-right and a right-to-left language model.
+
+--------- BERT (Bidirectional Encoder Representation from Transformers)-----
+
+BERT architecture consists of multi-layer bidirectional Transformer encoder.
+
+
+
