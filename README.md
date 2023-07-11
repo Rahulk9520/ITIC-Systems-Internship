@@ -1,6 +1,6 @@
 # ITIC Systems Internship
 
-Currently working as a `Data Analyst intern` at ITIC Systems on `Automatic Essay Scoring` Project by integrating ChatGPT.
+Worked as a `Data Analyst intern` at ITIC Systems on `Automatic Essay Scoring` Project by integrating ChatGPT and BERT for text classification.
 
 1. Researched about the *functionalities, facilities, methods, and technologies of Commercial Tools* used in Automatic Essay Scoring (AES).
 2. Researched about **Current Essay Scoring ML approaches** utilizing Regression, Neural Network, and Classification.
